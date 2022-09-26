@@ -15,4 +15,4 @@ repo sync -j4
 
 git clone --recursive https://github.com/flatmonster/optee_client.git
 git clone --recursive https://github.com/flatmonster/optee_os.git
-git clone --recursive sub https://github.com/flatmonster/optee_examples.git
+git clone --recursive https://github.com/flatmonster/optee_examples.git

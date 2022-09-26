@@ -7,3 +7,12 @@ repo init -u https://github.com/flatmonster/manifest.git -m qemu_v8.xml
 
 # repoに記載された環境を作る
 repo sync -j4
+
+
+# <project path="optee_client"         name="flatmonster/optee_client.git" />
+# <project path="optee_os"             name="flatmonster/optee_os.git" />
+# <project path="optee_examples"       name="flatmonster/optee_examples.git" />
+
+git clone --recursive https://github.com/flatmonster/optee_client.git
+git clone --recursive https://github.com/flatmonster/optee_os.git
+git clone --recursive sub https://github.com/flatmonster/optee_examples.git

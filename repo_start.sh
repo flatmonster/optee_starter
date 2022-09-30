@@ -19,4 +19,4 @@ git clone --recursive https://github.com/flatmonster/build.git
 git clone --recursive https://github.com/flatmonster/optee_client.git
 git clone --recursive https://github.com/flatmonster/optee_os.git
 git clone --recursive https://github.com/flatmonster/optee_examples.git
-git clone --recursive https://github.com/flatmonster/qemu.git -b v7.0.0 --depth 1
+git clone --recursive https://github.com/flatmonster/qemu.git --depth 1

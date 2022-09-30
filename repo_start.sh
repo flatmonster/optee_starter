@@ -3,6 +3,8 @@
 
 
 # 僕の環境のrepoを持ってくる
+mkdir -p work
+cd work
 repo init -u https://github.com/flatmonster/manifest.git -m qemu_v8.xml
 
 # repoに記載された環境を作る

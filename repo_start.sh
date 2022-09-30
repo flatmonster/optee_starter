@@ -24,3 +24,4 @@ git clone --recursive https://github.com/flatmonster/optee_examples.git
 git clone --recursive https://github.com/flatmonster/qemu.git --depth 1
 
 cp build/qemu_v8.mk build/Makefile
+make -j2 toolchains

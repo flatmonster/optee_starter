@@ -17,7 +17,7 @@ repo sync -j4
 # <project path="qemu"                 name="qemu/qemu.git"     revision="refs/tags/v7.0.0" clone-depth="1" />
 # <project path="build"                name="OP-TEE/build.git">
 
-git clone --recursive https://github.com/flatmonster/build.git 
+# git clone --recursive https://github.com/flatmonster/build.git 
 git clone --recursive https://github.com/flatmonster/optee_client.git 
 git clone --recursive https://github.com/flatmonster/optee_os.git
 git clone --recursive https://github.com/flatmonster/optee_examples.git

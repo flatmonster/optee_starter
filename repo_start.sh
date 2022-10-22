@@ -16,4 +16,4 @@ make -j2 toolchains
 echo ""
 echo ""
 echo "How to build OP-TEE "
-echo "build$ make run`nproc`"
+echo "build$ make run -j`nproc`"

@@ -12,6 +12,10 @@ repo init -u https://github.com/flatmonster/manifest.git -m qemu_v8.xml -b optee
 repo sync -j4
 
 
-# cp build/qemu_v8.mk build/Makefile
-# cd build
-# make -j2 toolchains
+cd build
+make -j2 toolchains
+
+echo ""
+echo ""
+echo "How to build OP-TEE "
+echo "build$ make run`nproc`"
